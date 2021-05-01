@@ -1,5 +1,19 @@
 @import "../index.css" ;
 //npm run scss
+$top : 100px;
 h1 {
     text-align: center;
+}
+input
+{
+    width: 330px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: $top;
+}
+label
+{
+    margin-left: 400px;
+    margin-top: $top;
+    text-decoration: bold;
 }
