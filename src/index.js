@@ -10,8 +10,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-$(document).bind("DOMNodeRemoved", function(e) {
-  console.log("Removed: " + e.target.nodeName);
-});
-
 
