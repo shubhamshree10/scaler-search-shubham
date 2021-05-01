@@ -1,5 +1,5 @@
 import '../css/style.css';
-import React, {Component} from "react";
+import React from "react";
 import Autocomplete from './autofill.js';
 var obj = {
   table: []
